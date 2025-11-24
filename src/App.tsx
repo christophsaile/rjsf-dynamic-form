@@ -72,7 +72,6 @@ export default function MultiStepRJSFForm() {
         uiSchema={updatedUiSchema}
         formData={formData}
         validator={validator}
-        noValidate
         showErrorList={false}
         noHtml5Validate
         onChange={({ formData }) => setFormData(formData)}
